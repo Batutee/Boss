@@ -1,0 +1,55 @@
+
+CHANGE ALL COLORS.FONTS,DESIGN, POSTITIONS, WIDTH AND BACKGOUND IMAGES
+
+
+
+
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 10px white);   
+  }
+a:link, a:hover { 
+    background-color: #00FF00; 
+}
+button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    border: none;
+    height: 47px;
+    filter: drop-shadow(10px 10px 10px white);   
+  }
+  button:hover { 
+    background-color: #00FF00; 
+  }
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+div {
+    background-image: linear-gradient(to bottom , lightblue , white,white, plum, CornflowerBlue);
+    padding: 50px 25px;
+    border-radius: 20px;
+    width: 350px;
+}
+h2 {
+    color: violet;
+    font-size: 30px;
+    filter: drop-shadow(10px 10px 10px FloralWhite);
+}
